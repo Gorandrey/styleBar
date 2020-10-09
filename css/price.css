@@ -1,0 +1,215 @@
+body {
+  background: none;
+  background-color: #303030; }
+
+/*.table-responsive {*/
+/*  display: block;*/
+/*  width: 100%;*/
+/*  margin: 0 auto;*/
+/*  -webkit-box-pack: center;*/
+/*  -webkit-justify-content: center;*/
+/*      -ms-flex-pack: center;*/
+/*          justify-content: center; }*/
+/*  .table-responsive tbody {*/
+/*    width: 100%; }*/
+
+.main {
+  padding-top: 45px; }
+  .main .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .main h3.title-table {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0 auto;
+    display: table; }
+  .main table.price-table {
+    border-collapse: collapse;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px; }
+    .main table.price-table th {
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 28px;
+      font-weight: 900;
+      border: 1px solid #ffffff;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      vertical-align: middle;
+      padding: 15px 20px;
+      padding-top: 5px;
+      text-transform: uppercase; }
+      .main table.price-table th:first-child {
+        width: 58%;
+        min-width: 940px;
+        border-left: 1px solid #ffffff; }
+    .main table.price-table td {
+      padding: 15px 20px;
+      width: 14%;
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 22px;
+      font-weight: 400; }
+    .main table.price-table tr:nth-child(n+3) > td:first-child {
+      width: 42%;
+      text-align: left; }
+  .main table.column-1 tr:nth-child(n+2) > td:first-child {
+    text-align: left; }
+  .main table.column-1 th:first-child {
+    border-left: none; }
+
+.heading {
+  padding-top: 50px; }
+
+footer {
+  margin-top: 100px; }
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  .table-responsive {
+    display: block;
+    width: 99%;
+    overflow: visible;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1599px) {
+  .table-responsive {
+    display: block;
+    width: 99%; }
+  .main table.price-table th:first-child {
+    width: 56%;
+    min-width: 554px;
+    width: auto;
+    border-left: 1px solid #ffffff; }
+  .main table.price-table td.first {
+    width: 42%;
+    text-align: left; } }
+
+@media (max-width: 991px) {
+  .header .navbar-brand {
+    height: 30px; }
+    .header .navbar-brand img {
+      height: auto; }
+  .header .navbar-nav .nav-item {
+    padding: 10px 0; }
+  .heading h2.welcome {
+    font-size: 35px; }
+  .main .container {
+    max-width: 100%; }
+  .main h3.title-table {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0 auto;
+    display: table; }
+  .main table.price-table {
+    border-collapse: collapse;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px; }
+    .main table.price-table th {
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 22px;
+      font-weight: 900;
+      border: 1px solid #ffffff;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      vertical-align: middle;
+      padding: 15px 20px;
+      padding-top: 5px; }
+      .main table.price-table th:first-child {
+        width: 58%;
+        min-width: 540px;
+        border-left: 1px solid #ffffff; }
+    .main table.price-table td {
+      padding: 15px 20px;
+      width: 14%;
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 18px;
+      font-weight: 400; }
+    .main table.price-table tr:nth-child(n+3) > td:first-child {
+      width: 58%;
+      text-align: left;
+      min-width: 558px; } }
+
+@media (max-width: 480px) {
+  .table-responsive {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
+  .main h3.title-table {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0 auto;
+    display: table; }
+  .main table.price-table {
+    border-collapse: collapse;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px; }
+    .main table.price-table th {
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: 900;
+      border: 1px solid #ffffff;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      vertical-align: middle;
+      padding: 10px 10px;
+      padding-top: 5px; }
+      .main table.price-table th:first-child {
+        width: 50%;
+        min-width: auto;
+        border-left: 1px solid #ffffff; }
+    .main table.price-table td {
+      padding: 5px;
+      width: auto;
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 400; }
+    .main table.price-table tr:nth-child(n+3) > td:first-child {
+      width: 58%;
+      text-align: left;
+      min-width: 260px; } }
